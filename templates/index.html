@@ -21,7 +21,7 @@
     <div class="jumbotron" style="color:black">
 
         <h1 style="color:black; ">
-            Get The latest news on MKM-Website
+            Get The latest news on MKM-News-App
         </h1>
 
     </div>
@@ -32,7 +32,7 @@
         <h2>* News :- </h2>
         <img width="1000" height="400" src="{{ i }}" alt="image-not-found">
         <h3>• {{ new }} {{ value|linebreaks }}</h3>
-        <a href="">• {{ ur }}</a>
+        <a href={{ ur }}>• {{ ur }}</a>
         <h4><b>• Description :- </b></h4>
         <p><b>=> </b>{{ des }} {{ value|linebreaks }}</p>
         {% endfor %}
